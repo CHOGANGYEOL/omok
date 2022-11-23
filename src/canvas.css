@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#item {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width:100px;
+    border-radius:50px;
+    height: 50px;
+    background-color:#000;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;;
+}
+.flying {
+    position: fixed;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    flex-direction:row;
+}
+.flying span {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right:10px;
+    display:inline-block;
+    border:1px solid #000;
+}
+.flying span:last-child {
+    margin-right: 0;
+}
+.flying span#black {
+    background-color:#000;
+}
+.flying span#red {
+    background-color:red;
+}
+.flying span#blue {
+    background-color:blue;
+}
+.flying span#green {
+    background-color:green;
+}
+.flying span#yellow {
+    background-color:yellow;
+}
+.flying span#delete {
+    background-color:#fff;
+}
