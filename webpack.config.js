@@ -21,7 +21,7 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin({
         template: path.resolve(__dirname, "src", "stone.html"),
-        filename: "stone.html",
+        filename: "index.html",
     }),
     new HtmlWebpackPlugin({
         template: path.resolve(__dirname, "src", "canvas.html"),
